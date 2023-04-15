@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F3F5FC;
+}
+.container{
+    width: 100%;
+    height: calc(100vh - 20px);
+    background-image: url(./src/Munieco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+.container-image{
+    padding-top: 10px;
+}
+.container-decrypt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: transparent;
+}
+.container-decrypt textarea{
+    background-color: transparent;
+    border: none;
+    border-radius: 2.5em;
+    font-size: 20px;
+    padding: 30px;
+    resize: none;
+    width: 89%;
+}
+.container-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-buttons button{
+    height: 50px;
+    width: 100px;
+    margin-right: 100px;
+    border-radius: 1em;
+    font-weight: 600;
+}
+.color-format{
+    background-color: #0A3871;
+    color: #ffff;
+    border: none;
+}
+.format{
+    background-color: transparent;
+    border: 1px solid #0A3871;
+    color: #000000;
+}
+.item-1
+{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    width: 515px;
+    height: 400px;
+    border-radius: 2.5em;
+    background-color: transparent;
+}
+.item-1 textarea{
+    color: #0A3871;
+    width: 100%;
+    background-color: transparent;
+}
+.item-5
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 515px;
+    height: 650px;
+    border-radius: 2.5em;
+    background-color: rgba(255, 255, 255, 0.685);
+    padding: 10px 0;
+}
+.item-5 textarea{
+    height: 550px;
+}
+.item-5 button{
+    margin-top: 20px;
+    background-color: transparent;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #0A3871;
+    border-radius: 1em;
+    color: #000000;
+    font-weight: 600;
+}
+.container-footer{
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+}
